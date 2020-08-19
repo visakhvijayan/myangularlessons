@@ -23,7 +23,15 @@
 5. Uses RxJS _observables_ (basically data streams) for async operations
 6. Steep learning curve relative to other frameworks
 
+Prerequest : Need node js installed.(bz need npm package manager)
+
 `npm install -g @angular/cli` to install Angular JS
+
+`ng new <Project Name>` (It will create folder and generate all core angular files, also create routing modules , stylesheet etc.)
+
+`cd <Project Name>` + `code .` to open the project in vs code
+
+`ng serve --open` to run the dev server which provided by angular cli, `--open` for open in the browser
 
 ### Reference
 
