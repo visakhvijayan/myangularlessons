@@ -14,6 +14,17 @@
    - Typescript
    - Fantastic CLI
 
+## The Angular Way
+
+1. Uses Typescript for static types (variables, funcitons, params)
+2. Component based
+3. Uses _Services_ to share data/functionality between components
+4. Concepts of _modules_ (root module, forms module, http module, etc)
+5. Uses RxJS _observables_ (basically data streams) for async operations
+6. Steep learning curve relative to other frameworks
+
+`npm install -g @angular/cli` to install Angular JS
+
 ### Reference
 
 > [Angular JS crash course](https://www.youtube.com/watch?v=Fdf5aTYRW0E&t=3758s)
