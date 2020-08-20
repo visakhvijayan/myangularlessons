@@ -1,6 +1,6 @@
 # AngularJS SANDBOX
 
-> This is created for me to learn angular JS
+> This is created for me to learn Angular JS
 
 ## About Angular
 
@@ -29,9 +29,13 @@ Prerequest : Need node js installed.(bz need npm package manager)
 
 `ng new <Project Name>` (It will create folder and generate all core angular files, also create routing modules , stylesheet etc.)
 
-`cd <Project Name>` + `code .` to open the project in vs code
+`cd <Project Name>` and `code .` to open the project in vs code
 
-`ng serve --open` to run the dev server which provided by angular cli, `--open` for open in the browser
+`ng serve --open` to run the dev server which provided by angular cli, `--open` for opening app in the browser
+
+`ng generate component <folder>/<component_name>` to add new component , we can also sepcify the folder also. Best way to create a folder with name component.
+ex: `ng generate component component/Todos` will create a new component and it will create a new folder called component and inside that it will add new component with name todo.
+you can check it under the app folder.
 
 ### Reference
 
